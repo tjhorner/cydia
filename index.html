@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <link href="https://syrexide.com/assets/img/Logo.png" rel="shortcut icon">
+    <title>hello</title>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-44675810-8', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <style>
+        body {
+            margin: 0 auto;
+        }
+
+        #bgthingy {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(40deg, #5c258d, #4389a2);
+            background-size: 400% 400%;
+            -webkit-animation: gradient 10s ease infinite;
+            -moz-animation: gradient 10s ease infinite;
+            animation: gradient 10s ease infinite;
+        }
+
+        @-webkit-keyframes gradient {
+            0% {
+                background-position: 90% 0%
+            }
+            50% {
+                background-position: 11% 0%
+            }
+            100% {
+                background-position: 90% 0%
+            }
+        }
+
+        @-moz-keyframes gradient {
+            0% {
+                background-position: 90% 0%
+            }
+            50% {
+                background-position: 11% 0%
+            }
+            100% {
+                background-position: 90% 0%
+            }
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 90% 0%
+            }
+            50% {
+                background-position: 11% 0%
+            }
+            100% {
+                background-position: 90% 0%
+            }
+        }
+
+        #cydia {
+            background-image: url("cydia.png");
+            background-size: cover;
+            top: 10vw;
+            width: 25vw;
+            height: 24vw;
+            position: relative;
+            left: 36vw;
+        }
+
+        #text {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 2.3vw;
+            text-align: center;
+            top: 10vw;
+            position: relative;
+            color: lightgray;
+        }
+
+        a {
+            text-decoration: none;
+            color: dodgerblue;
+        }
+
+        .animateda {
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+
+        .animatedb {
+            -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+
+        @-webkit-keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fadeInUp {
+            -webkit-animation-name: fadeInUp;
+        }
+    </style>
+    <style type="text/css">
+
+    </style>
+</head>
+
+<body>
+    <div id="bgthingy">
+        <div class="animateda fadeInUp" id="cydia"></div>
+
+        <h1 class="animatedb fadeInUp" id="text">Add https://cydia.syrexide.com/ to your Cydia sources or click <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://cydia.syrexide.com/">here</a>.</h1>
+    </div>
+</body>
+
+</html>

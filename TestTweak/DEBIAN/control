@@ -1,0 +1,10 @@
+Package: com.syrexide.tt
+Name: Test Tweak
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Useless test tweak.
+Depiction: http://cydia.syrexide.com/depiction/com.syrexide.tt/
+Homepage: http://cydia.syrexide.com
+Maintainer: Syrexide <me@syrexide.com>
+Author: Syrexide <me@syrexide.com>
+Section: Tweaks

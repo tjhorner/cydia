@@ -1,0 +1,11 @@
+Package: com.apple.sanfrancisco
+Name: San Francisco
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: The  Watch font.
+Depends: com.bytafont.bytafont2
+Depiction: http://cydia.syrexide.com/depiction/com.apple.sanfrancisco/
+Homepage: http://apple.com
+Maintainer: Syrexide <me@syrexide.com>
+Author: Apple Inc.
+Section: Fonts

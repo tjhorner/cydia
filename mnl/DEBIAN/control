@@ -1,0 +1,11 @@
+Package: com.syrexide.mnl
+Name: mnl
+Version: 0.0.2
+Architecture: iphoneos-arm
+Description: A minimal theme.
+Depends: winterboard
+Depiction: http://cydia.syrexide.com/depiction/com.syrexide.mnl/
+Homepage: http://cydia.syrexide.com
+Maintainer: Syrexide <me@syrexide.com>
+Author: Syrexide <me@syrexide.com>
+Section: Themes
