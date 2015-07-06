@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'weather';
+    src: url('../font/artill_clean_icons.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+.icon-0,
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4,
+.icon-5,
+.icon-6,
+.icon-7,
+.icon-8,
+.icon-9,
+.icon-10,
+.icon-11,
+.icon-12,
+.icon-13,
+.icon-14,
+.icon-15,
+.icon-16,
+.icon-17,
+.icon-18,
+.icon-19,
+.icon-20,
+.icon-21,
+.icon-22,
+.icon-23,
+.icon-24,
+.icon-25,
+.icon-26,
+.icon-27,
+.icon-28,
+.icon-29,
+.icon-30,
+.icon-31,
+.icon-32,
+.icon-33,
+.icon-34,
+.icon-35,
+.icon-36,
+.icon-37,
+.icon-38,
+.icon-39,
+.icon-40,
+.icon-41,
+.icon-42,
+.icon-43,
+.icon-44,
+.icon-45,
+.icon-46,
+.icon-47 {
+    color: #fff;
+    font-family: weather;
+    font-size: 150px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.0;
+}
+.icon-0:before {
+    content: ":";
+}
+.icon-1:before {
+    content: "p";
+}
+.icon-2:before {
+    content: "S";
+}
+.icon-3:before {
+    content: "Q";
+}
+.icon-4:before {
+    content: "S";
+}
+.icon-5:before {
+    content: "W";
+}
+.icon-6:before {
+    content: "W";
+}
+.icon-7:before {
+    content: "W";
+}
+.icon-8:before {
+    content: "W";
+}
+.icon-9:before {
+    content: "I";
+}
+.icon-10:before {
+    content: "W";
+}
+.icon-11:before {
+    content: "I";
+}
+.icon-12:before {
+    content: "I";
+}
+.icon-13:before {
+    content: "I";
+}
+.icon-14:before {
+    content: "I";
+}
+.icon-15:before {
+    content: "W";
+}
+.icon-16:before {
+    content: "I";
+}
+.icon-17:before {
+    content: "W";
+}
+.icon-18:before {
+    content: "U";
+}
+.icon-19:before {
+    content: "Z";
+}
+.icon-20:before {
+    content: "Z";
+}
+.icon-21:before {
+    content: "Z";
+}
+.icon-22:before {
+    content: "Z";
+}
+.icon-23:before {
+    content: "Z";
+}
+.icon-24:before {
+    content: "E";
+}
+.icon-25:before {
+    content: "E";
+}
+.icon-26:before {
+    content: "3";
+}
+.icon-27:before {
+    content: "a";
+}
+.icon-28:before {
+    content: "A";
+}
+.icon-29:before {
+    content: "a";
+}
+.icon-30:before {
+    content: "A";
+}
+.icon-31:before {
+    content: "6";
+}
+.icon-32:before {
+    content: "1";
+}
+.icon-33:before {
+    content: "6";
+}
+.icon-34:before {
+    content: "1";
+}
+.icon-35:before {
+    content: "W";
+}
+.icon-36:before {
+    content: "1";
+}
+.icon-37:before {
+    content: "S";
+}
+.icon-38:before {
+    content: "S";
+}
+.icon-39:before {
+    content: "S";
+}
+.icon-40:before {
+    content: "M";
+}
+.icon-41:before {
+    content: "W";
+}
+.icon-42:before {
+    content: "I";
+}
+.icon-43:before {
+    content: "W";
+}
+.icon-44:before {
+    content: "a";
+}
+.icon-45:before {
+    content: "S";
+}
+.icon-46:before {
+    content: "U";
+}
+.icon-47:before {
+    content: "S";
+}

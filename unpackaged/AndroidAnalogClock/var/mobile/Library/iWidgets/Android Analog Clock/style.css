@@ -1,0 +1,24 @@
+body {
+    margin: 0 auto;
+}
+
+svg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#face {
+    stroke-width: 1px;
+    stroke: #fff;
+}
+
+#hhand,#mhand,#shand {
+    fill: #fff;
+}
+
+#shand {
+    fill: #f55;
+}
