@@ -13,7 +13,5 @@ dpkg-deb -b -Zgzip "EverythingiInstall"
 
 mv *.deb ../debs
 cd ..
-cd debs
-dpkg-scanpackages -m . /dev/null > ../Packages
-cd ..
+dpkg-scanpackages -m . /dev/null > Packages
 bzip2 Packages
