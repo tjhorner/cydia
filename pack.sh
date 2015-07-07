@@ -1,5 +1,5 @@
 rm -r *.bz2
-cd debs
+cd deb
 rm -r *.deb
 cd ../src
 
