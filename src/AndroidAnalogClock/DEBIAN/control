@@ -1,0 +1,11 @@
+Package: com.syrexide.analogclock
+Name: Android Analog Clock
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Fun stuff like clock widgets from Android.
+Depends: com.eldwin.iwidgets
+Depiction: https://cydia.syrexide.com/depict/com.syrexide.analogclock/
+Homepage: https://cydia.syrexide.com
+Maintainer: Syrexide <me@syrexide.com>
+Author: Syrexide <me@syrexide.com>
+Section: Widgets
