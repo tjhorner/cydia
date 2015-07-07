@@ -9,6 +9,7 @@ dpkg-deb -b -Zgzip "OnePlusOneLS"
 dpkg-deb -b -Zgzip "SanFrancisco"
 dpkg-deb -b -Zgzip "TestTweak"
 dpkg-deb -b -Zgzip "EverythingiInstall"
+dpkg-deb -b -Zgzip "bLock"
 
 mv *.deb ../deb
 cd ..

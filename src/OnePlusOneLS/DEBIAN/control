@@ -1,6 +1,6 @@
 Package: com.syrexide.opols
 Name: OnePlus One LS
-Version: 0.0.6
+Version: 0.0.7
 Architecture: iphoneos-arm
 Description: A take on the OPO lockscreen for iOS!
 Depends: com.groovycarrot.groovylock, com.matchstic.infostats

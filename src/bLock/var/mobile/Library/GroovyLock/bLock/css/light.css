@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Geo Sans Light";
+  src: url("../fonts/GeoSansLight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: "Geo Sans Light", sans-serif;
+  font-size: 1.45em;
+  line-height: 3;
+  height: 100%;
+  width: 100%;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.hour,
+.min,
+.sec {
+  width: 10px;
+  height: 100px;
+  color: gray;
+  -webkit-transition: width 0.1s ease;
+          transition: width 0.1s ease;
+  box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.48);
+}
+
+.hour {
+  background: white;
+  opacity: 0.8;
+  z-index: 5;
+}
+
+.min {
+  background: white;
+  opacity: 0.6;
+  z-index: 4;
+}
+
+.sec {
+  background: white;
+  opacity: 0.4;
+  z-index: 3;
+}
+
+.m-text,
+.s-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.spacer {
+  line-height: 0.5;
+}
