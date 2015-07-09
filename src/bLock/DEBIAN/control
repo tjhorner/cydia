@@ -1,8 +1,8 @@
 Package: com.syrexide.block
 Name: bLock
-Version: 1.0.1
+Version: 1.0.2
 Architecture: iphoneos-arm
-Description: Sleek GroovyLock clock.
+Description: Sleek and sexy GroovyLock clock.
 Depends: com.groovycarrot.groovylock
 Depiction: https://cydia.syrexide.com/depict/com.syrexide.block/
 Homepage: https://cydia.syrexide.com

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+mv /var/mobile/Library/GroovyLock/bLock/js/config.js /var/mobile/Library/GroovyLock/

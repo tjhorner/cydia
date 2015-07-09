@@ -1,0 +1,116 @@
+@font-face {
+    font-family:"Geo Sans Light";
+    src:url(../fonts/GeoSansLight.woff) format("woff");
+    font-weight:400;
+    font-style:normal
+}
+
+html,body {
+    margin:0 auto;
+    font-family:"Geo Sans Light",sans-serif;
+    font-size:1.45em;
+    line-height:3;
+    height:100%;
+    width:100%;
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:antialiased;
+    -ms-font-smoothing:antialiased;
+    -o-font-smoothing:antialiased;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -webkit-flex-direction:column;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    -webkit-flex-wrap:nowrap;
+    -ms-flex-wrap:nowrap;
+    flex-wrap:nowrap;
+    -webkit-box-pack:center;
+    -webkit-justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-align-content:center;
+    -ms-flex-line-pack:center;
+    align-content:center;
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    text-align:center
+}
+
+#hour,#min,#sec,#batt {
+    height:100px;
+    color:gray;
+    -webkit-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    -ms-transition:all .5s ease;
+    -o-transition:all .5s ease;
+    transition:all .5s ease;
+    box-shadow:0 3px 10px 1px rgba(0,0,0,0.48)
+}
+
+#hour {
+    opacity:.8
+}
+
+#min {
+    opacity:.6
+}
+
+#sec {
+    opacity:.4
+}
+
+#batt {
+    font-size:.5em;
+    line-height:3;
+    height:50px;
+    opacity:.8
+}
+
+#h-text,#m-text,#s-text,#b-text {
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -webkit-flex-direction:column;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    -webkit-flex-wrap:nowrap;
+    -ms-flex-wrap:nowrap;
+    flex-wrap:nowrap;
+    -webkit-box-pack:center;
+    -webkit-justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-align-content:center;
+    -ms-flex-line-pack:center;
+    align-content:center;
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    text-align:center;
+    position:relative;
+    right:1px;
+    height:100%;
+    width:100%
+}
+
+.notification {
+    height:17.8vw!important
+}
+
+body.notification {
+    line-height:2!important;
+    height:100%!important;
+    -webkit-justify-content:flex-start!important;
+    -ms-flex-pack:flex-start!important;
+    justify-content:flex-start!important
+}
