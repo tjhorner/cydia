@@ -1,4 +1,5 @@
 // clock function
+
 function clock() {
 
     // set time variables
@@ -14,16 +15,18 @@ function clock() {
     $("#min").css("width", min + 15 + "%");
     $("#sec").css("width", sec + 15 + "%");
 
-    // convert to 12h time
 
-    if (hour >= 13) {
-        hour -= 12;
-    }
+    // 12h time
 
-    // for midnight
-
-    if (hour === 0) {
-        hour = 12;
+    if (h12 === true) {
+        // take away 12 from time
+        if (hour >= 13) {
+            hour -= 12;
+        }
+        // for midnight
+        if (hour === 0) {
+            hour = 12;
+        }
     }
 
     // add 0 before minute if minutes are less than 10 minutes
@@ -65,12 +68,12 @@ setInterval(checkNotifications, 1000);
 
 // light and dark theme
 
-if (dark_theme === false) {
-    // append the light stylesheet
-    $("head").append("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/light.css\">");
-} else {
+if (dark_theme === true) {
     // append the dark stylesheet
     $("head").append("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/dark.css\">");
+} else {
+    // append the light stylesheet
+    $("head").append("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/light.css\">");
 }
 
 // battery
