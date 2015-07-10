@@ -1,0 +1,11 @@
+Package: com.syrexide.lsslashes
+Name: LS Slashes
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Minimalistic GroovyLock clock.
+Depends: com.groovycarrot.groovylock
+Depiction: https://cydia.syrexide.com/depict/com.syrexide.lsslashes/
+Homepage: https://cydia.syrexide.com
+Maintainer: Syrexide <me@syrexide.com>
+Author: Syrexide <me@syrexide.com>
+Section: Addons

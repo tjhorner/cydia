@@ -10,6 +10,7 @@ dpkg-deb -b -Zgzip "SanFrancisco"
 dpkg-deb -b -Zgzip "TestTweak"
 dpkg-deb -b -Zgzip "EverythingiInstall"
 dpkg-deb -b -Zgzip "bLock"
+dpkg-deb -b -Zgzip "LsSlashes"
 
 mv *.deb ../deb
 cd ..

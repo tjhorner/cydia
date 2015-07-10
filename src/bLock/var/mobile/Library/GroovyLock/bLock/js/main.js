@@ -19,7 +19,7 @@ function clock() {
     // 12h time
 
     if (h12 === true) {
-        // take away 12 from time
+        // convert to 12h time
         if (hour >= 13) {
             hour -= 12;
         }
@@ -83,7 +83,7 @@ function updateBattery() {
         // change width according to battery level and battery level text
         $("#batt").css("width", level + "%");
         $("#b-text").text(level + "%");
-        // if the battery level is lower than 30 it will keep the width at 30
+        // if the battery level is lower than 15 it will keep the width at 15
         if (level < 15) {
             $("#batt").css("width", 15 + "%");
         }
