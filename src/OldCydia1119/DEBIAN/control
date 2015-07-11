@@ -3,7 +3,7 @@ Section: Packaging
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Architecture: iphoneos-arm
 Version: 1.1.9
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Replaces: cydia, bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Depends: apr-lib, apt7-lib, apt7-key, cydia-lproj, darwintools, debianutils, org.thebigboss.repo.icons, pcre, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4)
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Pre-Depends: debianutils
