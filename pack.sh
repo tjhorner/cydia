@@ -11,6 +11,7 @@ dpkg-deb -b -Zgzip "TestTweak"
 dpkg-deb -b -Zgzip "EverythingiInstall"
 dpkg-deb -b -Zgzip "bLock"
 dpkg-deb -b -Zgzip "LsSlashes"
+dpkg-deb -b -Zgzip "OldCydia1119"
 
 mv *.deb ../deb
 cd ..
