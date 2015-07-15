@@ -1,48 +1,89 @@
-<!DOCTYPE html>
-<html>
+<html lang="en" id="everything">
 
 <head>
-    <meta content="minimum-scale=1.0, width=device-width, maximum-scale=0.6667, user-scalable=no" name="viewport">
-    <link href="../all/main.css" rel="stylesheet" type="text/css"></link>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="../all/main.css">
+    <script type="text/javascript" src="http://cydia.saurik.com/cytyle/style-3c578a2a65b28de08a903cddcf2ea0feae341e61.js"></script>
 </head>
 
-<body>
+<body class="pinstripe">
     <panel>
+        <block id="version"></block>
         <fieldset>
             <div>
-                <p>Everything I install after jailbreaking my phone.
-                  <br />
-                  <br />
-                  No screenshots for this item.
-                </p>
+                <p>Everything I install after jailbreaking my phone.</p>
             </div>
         </fieldset>
+        <label>Other Info</label>
+        <block>
+            <p>No screenshots for this item.</p>
+        </block>
+        <label>Newest Changes</label>
         <fieldset>
-            <a href="changes.html" target="_new">
-                <img class="icon" src="../all/changelog.png">
+            <div>
+                <p>Update.</p>
+            </div>
+            <a href="changes.html">
+                <img class="icon" src="../all/changes.png" width="58" height="58">
                 <div>
-                    <label>View Changelog</label>
+                    <div>
+                        <label>
+                            <p>Full Changelog</p>
+                        </label>
+                    </div>
                 </div>
             </a>
         </fieldset>
-
         <fieldset>
-          <a href="http://syrexide.com" target="_new">
-              <img class="icon" src="../all/web.png">
-              <div>
-                  <label>My Portfolio</label>
-              </div>
-          </a>
-            <a href="https://twitter.com/Syrexide" target="_new">
-                <img class="icon" src="../all/twitter.png">
+            <a href="bugs.html">
+                <img class="icon" src="../all/bugs.png" width="58" height="58">
                 <div>
-                    <label>Follow me on Twitter</label>
+                    <div>
+                        <label>
+                            <p>Known Bugs</p>
+                        </label>
+                    </div>
                 </div>
             </a>
         </fieldset>
-
+        <label>Contact / Info</label>
+        <fieldset>
+            <a href="https://syrexide.com">
+                <img class="icon" src="../all/web.png" width="58" height="58">
+                <div>
+                    <div>
+                        <label>
+                            <p>My Portfolio</p>
+                        </label>
+                    </div>
+                </div>
+            </a>
+            <a href="mailto:me@syrexide.com">
+                <img class="icon" src="../all/email.png" width="58" height="58">
+                <div>
+                    <div>
+                        <label>
+                            <p>Email me</p>
+                        </label>
+                    </div>
+                </div>
+            </a>
+            <a href="https://twitter.com/Syrexide">
+                <img class="icon" src="../all/twitter.png" width="58" height="58">
+                <div>
+                    <div>
+                        <label>
+                            <p>Follow me on Twitter</p>
+                        </label>
+                    </div>
+                </div>
+            </a>
+        </fieldset>
     </panel>
-
+    <script src="iosver.js"></script>
+    <script src="faux-flat.js"></script>
 
 </body>
 
