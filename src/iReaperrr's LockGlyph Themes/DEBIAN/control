@@ -1,0 +1,10 @@
+Package: com.ireaperrr.lockglyphs
+Name: iReaperrr's LockGlyph Themes
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: iReaperrr's LockGlyph Themes.
+Depends: com.evilgoldfish.lockglyph
+Homepage: https://cydia.syrexide.com
+Maintainer: Syrexide <me@syrexide.com>
+Author: iReaperrr
+Section: Addons

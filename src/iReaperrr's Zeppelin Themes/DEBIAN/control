@@ -1,0 +1,10 @@
+Package: com.ireaperrr.zeppelins
+Name: iReaperrr's Zeppelin Themes
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: iReaperrr's Zeppelin Themes.
+Depends: com.alexzielenski.zeppelin
+Homepage: https://cydia.syrexide.com
+Maintainer: Syrexide <me@syrexide.com>
+Author: iReaperrr
+Section: Addons

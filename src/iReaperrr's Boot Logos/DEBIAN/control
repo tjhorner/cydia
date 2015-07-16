@@ -1,0 +1,10 @@
+Package: com.ireaperrr.bootlogos
+Name: iReaperrr's Boot Logos
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: iReaperrr's Boot Logos.
+Depends: winterboard
+Homepage: https://cydia.syrexide.com
+Maintainer: Syrexide <me@syrexide.com>
+Author: iReaperrr
+Section: Themes

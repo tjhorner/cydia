@@ -12,6 +12,10 @@ dpkg-deb -b -Zgzip "EverythingiInstall"
 dpkg-deb -b -Zgzip "bLock"
 dpkg-deb -b -Zgzip "LsSlashes"
 
+dpkg-deb -b -Zgzip "iReaperrr's Boot Logos"
+dpkg-deb -b -Zgzip "iReaperrr's LockGlyph Themes"
+dpkg-deb -b -Zgzip "iReaperrr's Zeppelin Themes"
+
 mv *.deb ../deb
 cd ..
 dpkg-scanpackages -m . /dev/null > Packages
