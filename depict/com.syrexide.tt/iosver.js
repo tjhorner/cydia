@@ -9,9 +9,11 @@ function iOSversion() {
 ver = iOSversion();
 
 if (ver[0] >= 1) {
-    document.getElementById("version").innerHTML = "<p>Your device is supported.</p>";
+    document.getElementById("version").innerHTML = "<p>Your device is supported. 😊</p>";
+    document.getElementById("version").className = "supported";
 } else if (ver === 0) {
-    document.getElementById("version").innerHTML = "<p>Pretty sure you're not on an iOS device.</p>";
+    document.getElementById("version").innerHTML = "<p>Pretty sure you're not on an iOS device. 😕</p>";
 } else {
-    document.getElementById("version").innerHTML = "<p>Your device is not supported.</p>";
+    document.getElementById("version").innerHTML = "<p>Your device is not supported. 😢</p>";
+    document.getElementById("version").className = "nosupport";
 }

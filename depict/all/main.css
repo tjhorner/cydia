@@ -935,3 +935,11 @@ select {
 .cytyle-flat fieldset>a>div>div>label.url {
     left: -0.05882em
 }
+
+.supported {
+ background-color: lightgreen;
+}
+
+.nosupport {
+ background-color: lightcoral;
+}
