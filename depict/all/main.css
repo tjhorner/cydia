@@ -296,7 +296,7 @@ panel>iframe+iframe {
     margin-top: 0
 }
 panel>div a {
-    color: #586c90;
+    color: #3498db
     font-weight: bold;
     text-shadow: rgba(255, 255, 255, 0.75) 1px 1px 0
 }
@@ -375,7 +375,7 @@ panel>block>ul {
 }
 fieldset>div a,
 panel>block a {
-    color: blue
+    color: #3498db
 }
 fieldset>a,
 fieldset>div,

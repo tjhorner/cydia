@@ -1,0 +1,11 @@
+Package: com.syrexide.cataracstm
+Name: Cataracs Tiny Mod
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: As requested by /u/jvlanich212.
+Depiction: https://cydia.syrexide.com/depict/com.syrexide.cataracstm
+Homepage: https://cydia.syrexide.com/
+Depends: com.groovycarrot.groovylock, com.matchstic.infostats
+Maintainer: Syrexide <me@syrexide.com>
+Author: Syrexide <me@syrexide.com>
+Section: Addons
